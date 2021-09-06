@@ -45,6 +45,8 @@ function byeEmployee(){
         }
     } // end for loop
     employees = holdTheseEmployees;
+    calculateRemainingTotalCost(employees);
+    
     // remove them from the employees array
     // console log the array
 };// end byeEmployee
@@ -64,8 +66,11 @@ function calculateRemainingTotalCost(){
         if( totalCost > budget ){
             $( '#remainingTotalCostOut' ).css( 'background-color' , 'red' );
             $( '#remainingTotalCostOut' ).css( 'color' , 'white' );
-
          } // end if
+         else{
+            $( '#remainingTotalCostOut' ).css( 'background-color' , 'linen' );
+            $( '#remainingTotalCostOut' ).css( 'color' , '#161B33' );
+         };
     // for each employee, add up all the salaries
     // subtract totalPrice from budget for remainingBudget
     // display remaining budget

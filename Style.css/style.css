@@ -15,7 +15,6 @@ tr:nth-child(even) {
 tr:hover{
     background-color: #676767;
     color: white;
-    font-style: bold;
 }
 tr{
     text-align: center;
@@ -23,7 +22,7 @@ tr{
     background-color: white;
     }
 body{
-    font-family: Calibri, Product Sans, Arial, Helvetica, sans-serif;
+    font-family: Product Sans, Arial, Helvetica, sans-serif;
     background-color:linen;
     color: #161B33;
 }
